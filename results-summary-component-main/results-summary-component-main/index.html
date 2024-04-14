@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <link href="style.css" rel="stylesheet"/>
+</head>
+
+
+<body>
+  <!-- Displaying hole body in container -->
+<div class="container">
+  <!-- Display left half -->
+  <div class="left">
+    <h4>Your Result</h4>
+    <div class="left-result">
+      <span class="obtained-result">76</span>
+      <span class="out-of-result">of 100</span>
+    </div>
+    <div class="left-text">
+      <h3>Great</h3>
+      <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+  </div>
+<!-- Display right half -->
+  <div class="right">
+    <h4>Summary</h4>
+    <!-- all result will add in one div as result , create separate div for icon and row of result-->
+    <div class="result"> 
+      <div class="reaction-result">
+        <div class="reaction-icon">
+          <img src="./assets/images/icon-reaction.svg" alt="reaction"/>
+          <span>Reaction</span>
+        </div>
+        <span class="bold-text">80 /<span class="gray-text">100</span></span>
+      </div>
+      <div class="memory-result">
+        <div class="memory-icon">
+          <img src="./assets/images/icon-memory.svg" alt="memory"/>
+          <span>Memory</span>
+        </div>
+        <span class="bold-text">92 /<span class="gray-text">100</span></span>
+      </div>
+      <div class="verbal-result">
+        <div class="verbal-icon">
+          <img src="./assets/images/icon-verbal.svg" alt="verbal"/>
+          <span>Verbal</span>
+        </div>
+        <span class="bold-text">61 /<span class="gray-text">100</span></span>
+      </div>
+      <div class="visual-result">
+        <div class="visual-icon">
+          <img src="./assets/images/icon-visual.svg" alt="visual"/>
+          <span>Visual</span>
+        </div>
+        <span class="bold-text">72 /<span class="gray-text">100</span></span>
+      </div>
+      <button>Continue</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>
